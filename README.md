@@ -16,10 +16,10 @@ Finally, we print the weather data.
 
 ##Second Method
 
-We ask the user to enter the city name.
+We ask the user to enter the city name as an argument.
 
 We enter the city name in the URL: 
-https://wttr.in/{city}
+https://wttr.in/{}.format(cityname)
 
 Then we use the wttr.in API to get the weather data of the city.
 
