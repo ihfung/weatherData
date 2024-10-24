@@ -22,7 +22,7 @@ import requests
 city = input("Enter the city name: ")
 
 # Passing the city name to the URL to get weather data
-url = f'https://wttr.in/{city}'
+url = 'https://wttr.in/{city}'
 res = requests.get(url)
 
 # Printing the schematic weather details of the city
